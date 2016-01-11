@@ -5,6 +5,10 @@ node_js:
 notifications:
   email: false
 
+branches:
+  only:
+    - gh-pages
+
 cache:
   directories:
     - node_modules
