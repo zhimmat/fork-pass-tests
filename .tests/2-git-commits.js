@@ -6,7 +6,7 @@ var
   gitCountCommits = require('git-count-commits')
 ;
 
-var MIN_COMMITS = 4;
+var MIN_COMMITS = 5;
 
 /*
   +++++++++++++++++++++++++++++++++++++++++++++++
