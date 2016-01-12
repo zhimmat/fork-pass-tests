@@ -37,7 +37,7 @@ describe('# index.html', function () {
 
   /* CONTAINS ++++++++++++++++++++++++++++++++ */
 
-  it('contains the write code', function (done) {
+  it('contains the right code', function (done) {
     var contents = fs.readFileSync('index.html', 'utf8');
 
     if (!contents.match(/Hello World\!/)) {
